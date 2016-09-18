@@ -10,7 +10,7 @@ Check out the project on my [Github.io](https://mgallow.github.io/CatDog/)
 
 In this tutorial we create a cat vs. dog image classifier using the python deep learning library Keras. Keras is a wrapper that works on top of Tensorflow or Theano. I have constructed the following using the Tensorflow backend - though the steps should be similar (if not, identical) should you choose to use the Theano backend.
 
-![](https://github.com/MGallow/CatDog/blob/master/example.jpg)
+![](https://github.com/MGallow/CatDog/raw/master/example.jpg)
 
 ### Why do we care?
 
@@ -35,6 +35,18 @@ This tutorial assumes basic knowledge of neural networks, specifically convoluti
 - [fine-tune_classifier.ipynb](https://github.com/MGallow/CatDog/blob/master/fine-tune_classifier.ipynb)
 - [pre-train_classifier.ipynb](https://github.com/MGallow/CatDog/blob/master/pre-train_classifier.ipynb)
 - [train_classifier.ipynb](https://github.com/MGallow/CatDog/blob/master/train_classifier.ipynb)
+
+This project utilizes a **"Locations.py"** script (not included) that specifies the locations of various files/repositories on the local machine. Thus, you may need to make slight adjustments to the files in order for them to run. Specifically, the following locations are defined (among others potentially):
+
+- **train_data_dir** = _file path to training data_
+- **validation_data_dir** = _file path to validation data_
+- **test_data_dir** = _file path to test data_
+- **preview_dir** = _where to save the previewed images? (optional)_
+- **runs_dir** = _file path to saved model weights_
+- **arch_dir** = _file path to saved model architectures_
+- **train_bottleneck** = _file path to generated training bottleneck features_
+- **validation_bottleneck** = _file path to generated validation bottleneck features_
+- **plot_dir** = _file path to saved plots_
 
 ## Bottleneck Features
 

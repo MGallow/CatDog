@@ -1,4 +1,5 @@
-#this is a simple script to order the image files into correct folders so that we can use Keras.
+# this is a simple script to order the image files into correct folders so
+# that we can use Keras.
 
 import shutil
 import os
@@ -6,10 +7,11 @@ import os
 exec(open("Locations.py").read())
 
 
-#where are the images located?
+# where are the images located?
 files = os.listdir(source)
 
-#if the image names begin with "dog" or "cat" we move the images to their corresponding image folder
+# if the image names begin with "dog" or "cat" we move the images to their
+# corresponding image folder
 for f in files:
     newfile = os.path.join(source, f)
     if (f.startswith("dog")):
@@ -18,8 +20,8 @@ for f in files:
         shutil.move(newfile, dest2)
 
 
-#furthermore, we subset the "cat" and "dog" folders by "training" and "validation" folders
-#subset the "cat folder" (first 4000 images)
+# furthermore, we subset the "cat" and "dog" folders by "training" and "validation" folders
+# subset the "cat folder" (first 4000 images)
 files1 = os.listdir(dest1)
 
 for f1 in files1:
@@ -30,7 +32,7 @@ for f1 in files1:
         break
 
 
-#subset the "cat folder" (first 4000 images)
+# subset the "cat folder" (first 4000 images)
 files2 = os.listdir(dest2)
 
 for f2 in files2:

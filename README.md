@@ -10,7 +10,7 @@
 
 In this tutorial we create a cat vs. dog image classifier using the python deep learning library Keras. Keras is a wrapper that works on top of Tensorflow or Theano. I have constructed the following using the Tensorflow backend - though the steps should be similar (if not, identical) should you choose to use the Theano backend.
 
-![](example.jpg) ![](https://github.com/MGallow/CatDog/blob/master/example.jpg)
+![](example.jpg)
 
 ### Why do we care?
 

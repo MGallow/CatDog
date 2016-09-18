@@ -1,5 +1,3 @@
-[Back to profile.](http://mgallow.github.io)
-
 # Cat-Dog Image Classifier
 
 ## **(Documentation in progress)
@@ -10,7 +8,7 @@
 
 In this tutorial we create a cat vs. dog image classifier using the python deep learning library Keras. Keras is a wrapper that works on top of Tensorflow or Theano. I have constructed the following using the Tensorflow backend - though the steps should be similar (if not, identical) should you choose to use the Theano backend.
 
-![](example.jpg)
+![](https://github.com/MGallow/CatDog/blob/master/example.jpg)
 
 ### Why do we care?
 
@@ -44,5 +42,3 @@ This tutorial assumes basic knowledge of neural networks, specifically convoluti
 
 - Keras documentation: <https://keras.io>
 - This tutorial is highly based off Francois Chollet's blog post: <https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html>
-
-[Back to profile.](http://mgallow.github.io)

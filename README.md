@@ -2,6 +2,8 @@
 
 ## **(Documentation in progress)
 
+Check out the project on my [Github.io](https://mgallow.github.io/CatDog/)
+
 ## Introduction
 
 **Disclaimer**: This tutorial is highly based off of Francois Chollet's blog post: <https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html>
